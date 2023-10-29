@@ -25,7 +25,7 @@ function App() {
       async function fetchUserData(username) {
         try {
           // Autoryzacja githuba, bo wykorzystałem wszystkie darmowe zapytania
-          const token = "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";
+          const token = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
           const headers = {
             Authorization: `Bearer ${token}`,
           };
