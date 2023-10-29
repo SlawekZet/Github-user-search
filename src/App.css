@@ -1,0 +1,107 @@
+main {
+  width: 45.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.upper-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 45.6rem;
+}
+
+.logotype {
+  font-size: 1.625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.theme-switcher {
+  display: flex;
+  height: 1.25rem;
+  padding-left: 0px;
+  justify-content: center;
+  gap: 1rem;
+  border: none;
+  background-color: inherit;
+  font-family: Space Mono;
+  text-transform: uppercase;
+  color: var(--tertiary-font);
+  font-weight: 700;
+  letter-spacing: 0.15625rem;
+}
+
+.theme-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.search-bar-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--secondary-background);
+  padding: 0.6rem;
+  border-radius: 0.9375rem;
+  box-shadow: var(--shadow);
+  padding-left: 2rem;
+}
+
+.search-icon {
+  width: 1.50363rem;
+  height: 1.5rem;
+}
+
+.search-bar-input {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-family: Space Mono;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  width: 100%;
+}
+
+.search-bar-input-field:focus {
+  outline-width: 0;
+  caret-color: var(--strong-blue);
+}
+
+.search-bar-input-field {
+  width: 100%;
+  padding-right: 2rem;
+  border: none;
+  font-size: 1.125rem;
+  background-color: var(--secondary-background);
+  color: var(--secondary-font);
+}
+
+::placeholder {
+  color: var(--secondary-font);
+  font-family: Space Mono;
+  font-size: 1.125rem;
+}
+
+.search-button {
+  width: 6.625rem;
+  height: 3.125rem;
+  border-radius: 0.625rem;
+  background-color: var(--strong-blue);
+  font-family: Space Mono;
+  color: var(--white);
+  border: none;
+  font-weight: 700;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.search-button:active {
+  background-color: var(--light-blue);
+}
